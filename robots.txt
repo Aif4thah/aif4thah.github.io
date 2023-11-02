@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /BugHunting/
+
+Sitemap: https://taisen.fr/sitemap.txt

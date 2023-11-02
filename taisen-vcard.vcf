@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+REV:2022-03-18T09:07:01Z
+N;CHARSET=utf-8:VACARELLA;Michaêl;;;
+FN;CHARSET=utf-8:Michaël Vacarella
+ORG;CHARSET=utf-8:Taisen-Solutions
+TITLE;CHARSET=utf-8:Consultant Cybersecurité
+EMAIL;INTERNET:michael.vacarella@protonmail.com
+TEL;PREF;CELL:+33623301928
+TEL;WORK:
+TEL;WORK:
+URL;TYPE=vCard:https://taisen.fr
+ADR;WORK;POSTAL;CHARSET=utf-8:;;;;
+END:VCARD
