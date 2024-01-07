@@ -63,7 +63,7 @@ Proton stocke les données, mais n'y a pas accès.
 
 ### Utilisation de produits Microsoft
 
-Les services Microsoft, tels que Windows et MS Office permettent d'être compatible avec les attentes et les technologies des clients.
+Les services Microsoft, tels que Windows, MS Office, Github et ChatGPT permettent d'être compatible avec les attentes et les technologies des clients.
 
 Malgré l’invalidation du Privacy Shield, les clauses contractuelles types entre Microsoft et l’Union européenne fournissent des garanties spécifiques concernant les transferts de données personnelles pour les services dans le cadre de l’étendue. Les clauses contractuelles types de l’Union européenne sont utilisées entre les fournisseurs de services (tels que Microsoft) et leurs clients pour s’assurer que toutes les données personnelles sortant de l’EEE seront transférées conformément au RGPD. 
 	
@@ -78,4 +78,5 @@ Malgré l’invalidation du Privacy Shield, les clauses contractuelles types ent
 
 ### Nomadisme
 
-* Les connexions chiffrées de bout en bout sont privilégiées. Cela inclut l'utilisation de VPN lorsque nécessaire.
+* Les connexions chiffrées de bout en bout sont privilégiées dans la mesure du possible. 
+* Des services VPN sont utilisés lorsque nécessaire.
