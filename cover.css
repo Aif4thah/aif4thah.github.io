@@ -5,30 +5,36 @@ a:hover {
 }
 
 
-.btn-secondary,
+.btn-secondary {
+  color: #000; /* Lettres noires */
+  background-color: #fff; /* Fond blanc */
+  border: 0.2rem solid #000; /* Bordure noire */
+  border-radius: 10rem;
+  width: 10em;
+}
+
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #fff;
   text-shadow: none;
-  background-color: 24292e;
-  border: .1rem solid 24292e;
-  width: 10em;
+  background-color: #000;
+  border: 0.2rem solid #000;
+  border-radius: 10rem;
   --bs-btn-color: #fff;
   --bs-btn-bg: #000;
   --bs-btn-border-color: #000;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #5c636a;
-  --bs-btn-hover-border-color: #565e64;
+  --bs-btn-hover-bg: #000;
+  --bs-btn-hover-border-color: #000;
   --bs-btn-focus-shadow-rgb: 130,138,145;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #565e64;
-  --bs-btn-active-border-color: #51585e;
+  --bs-btn-active-bg: #000;
+  --bs-btn-active-border-color: #000;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #000;
   --bs-btn-disabled-border-color: #000;
 }
-
 
 
 html,
@@ -273,20 +279,6 @@ div#vcard {
   -webkit-transform: scale(1.25);
   transform: scale(1.25);
   cursor: zoom-out;
-}
-
-.btn-up,
-.btn-up:hover,
-.btn-up:focus {
-  position: fixed;
-  display: block;
-  right: 5%;
-  bottom: 5%; 
-  color: #fff;
-  text-shadow: none;
-  background-color: 24292e;
-  border: .05rem solid 24292e;
-  width: 2.4em;
 }
 
 /* Flexbox references */
