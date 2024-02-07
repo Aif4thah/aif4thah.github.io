@@ -71,7 +71,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
-  color: #B22222;
+  color: #7f00ff;
 
 }
 
@@ -100,7 +100,7 @@ body {
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
-    color: #B22222;
+    color: #7f00ff;
   }
 
   .nav-masthead {
@@ -188,7 +188,7 @@ body {
 }
 
 .logotsn {
-  width: 80%;
+  width: 40%;
   height: auto;
 
 }
@@ -216,7 +216,7 @@ h2 {
   margin-bottom: 10px;
   text-align: center !important;
   font-size: 40px !important;
-  color: #B22222;
+  color: #7f00ff;
 }
 
 
