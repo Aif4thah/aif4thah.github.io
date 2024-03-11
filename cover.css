@@ -122,6 +122,16 @@ body {
   color: 24292e;
 }
 
+.imgTxt {
+  width: 0.7em;
+  height: auto;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  filter: invert(20%);
+}
+
 .imgSmall {
   width: 18px;
   height: auto;
@@ -129,7 +139,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  filter: invert(70%);
+  filter: invert(80%);
 }
 
 .imgSmall-menu {
@@ -197,7 +207,6 @@ body {
   margin-top: 10%;
   margin-bottom: 20%;
   padding: 1em;
-
 }
 
 hr {
@@ -274,8 +283,8 @@ div#vcard {
 }
 
 .imgLivrables img:active {
-  -webkit-transform: scale(1.25);
-  transform: scale(1.25);
+  -webkit-transform: scale(1.50);
+  transform: scale(1.50);
   cursor: zoom-out;
 }
 
