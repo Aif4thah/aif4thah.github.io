@@ -1,7 +1,68 @@
-a,
-a:focus,
-a:hover {
+html,
+body {
+  font-family: Manrope, Helvetica Neue ,Arial Nova, Helvetica, Arial, sans-serif;
+  text-align: center !important;
+  line-height: 1.6;
+  height: max-content;
+  background-color: #fff;
+  width: 100%;
+  min-width: min-content;
+
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: 24292e;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: #440088;
+  text-align: center;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+}
+
+
+a,a:focus,a:hover {
   color: #000;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 1em 0;
+  padding: 0;
+}
+
+
+.descr {
+  text-align: justify;
+  font-size: large;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
+}
+
+.lead {
+  text-align: justify;
+  font-size: x-large;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 
@@ -34,30 +95,6 @@ a:hover {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #000;
   --bs-btn-disabled-border-color: #000;
-}
-
-
-html,
-body {
-  font-family: Manrope, Helvetica Neue ,Arial Nova, Helvetica, Arial, sans-serif;
-  text-align: center !important;
-  line-height: 1.6;
-  height: max-content;
-  background-color: #fff;
-  width: 100%;
-  min-width: min-content;
-
-}
-
-body {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  color: 24292e;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
 
 .cover-container {
@@ -184,81 +221,6 @@ body {
   margin-bottom: 15px;
 }
 
-.imgBtn {
-  width: 14px;
-  filter: invert(100%);
-}
-
-.logo {
-  height: 4em;
-  width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.logotsn {
-  width: 40%;
-  height: auto;
-
-}
-
-.divDefault {
-  margin-top: 10%;
-  margin-bottom: 20%;
-  padding: 1em;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #000;
-  margin: 1em 0;
-  padding: 0;
-}
-
-h2 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  text-align: center !important;
-  font-size: 40px !important;
-  color: #440088;
-}
-
-
-.descr {
-  text-align: justify;
-  font-size: large;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 10%;
-  margin-inline-end: 10%;
-}
-
-.lead {
-  font-size: x-large;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-
-div#vcard {
-  text-align: center;
-  overflow: hidden;
-  font-size: 14pt;
-}
-
 .imgLivrables {
   width: 80%;
   max-width: 700px;
@@ -287,6 +249,90 @@ div#vcard {
   transform: scale(1.50);
   cursor: zoom-out;
 }
+
+.imgBtn {
+  width: 14px;
+  filter: invert(100%);
+}
+
+.logo {
+  height: 4em;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logotsn {
+  width: 40%;
+  height: auto;
+
+}
+
+.divDefault {
+  margin-top: 10%;
+  margin-bottom: 20%;
+  padding: 1em;
+}
+
+
+/* Partie "A la une" */
+
+.divInfo {
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  padding: 1em;
+  background-color: #000; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+}
+
+.divInfo p {
+  text-align: Left;
+  color: #fff;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+}
+
+.divInfo h2 {
+  color: #7dcff5 !important;
+  text-align: left;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+  margin-right: 20%;
+}
+
+.divInfo a,a:focus,a:hover {
+  color: #fff;
+}
+
+.imgTxt {
+  width: 0.7em;
+  height: auto;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  filter: invert(90%);
+}
+
+/* Fin Info - a la une */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+div#vcard {
+  text-align: center;
+  overflow: hidden;
+  font-size: 14pt;
+}
+
 
 /* Flexbox references */
 
