@@ -26,7 +26,7 @@ h2 {
   margin-bottom: 10px;
   text-align: center;
   font-size: 40px;
-  color: #440088;
+  color: #443c81;
   text-align: center;
   letter-spacing: -.01em;
   line-height: 1.2;
@@ -108,7 +108,7 @@ hr {
 
 .masthead-brand {
   margin-bottom: 0;
-  color: #440088;
+  color: #443c81;
 
 }
 
@@ -271,7 +271,7 @@ hr {
 
 .divDefault {
   margin-top: 10%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   padding: 1em;
 }
 
@@ -281,7 +281,7 @@ hr {
 .divInfo {
   text-align: left;
   margin-top: 5%;
-  margin-bottom: 20%;
+  margin-bottom: 5%;
   padding: 1em;
   background-color: #000; /* Couleur de fond */
   color: #fff; /* Couleur du texte */
@@ -294,8 +294,16 @@ hr {
   line-height: 1.2;
 }
 
-.divInfo h2 {
-  color: #7dcff5 !important;
+.blue {
+  color: #359ffa !important;
+  text-align: left;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+  margin-right: 20%;
+}
+
+.pink {
+  color: #e413ed !important;
   text-align: left;
   letter-spacing: -.01em;
   line-height: 1.2;
