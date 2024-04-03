@@ -190,19 +190,8 @@ hr {
   filter: invert(20%);
 }
 
-
 .imgMedium {
   width: 250px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.imgBig {
-  width: 400px;
-  max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -250,19 +239,6 @@ hr {
   cursor: zoom-out;
 }
 
-.imgBtn {
-  width: 14px;
-  filter: invert(100%);
-}
-
-.logo {
-  height: 4em;
-  width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .logotsn {
   width: 40%;
   height: auto;
@@ -275,26 +251,6 @@ hr {
   padding: 1em;
 }
 
-.imgTxt {
-  width: 0.7em;
-  height: auto;
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  filter: invert(90%);
-}
-
-/* Fin Info - a la une */
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
 
 div#vcard {
   text-align: center;
