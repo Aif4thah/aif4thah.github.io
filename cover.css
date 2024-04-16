@@ -159,16 +159,6 @@ hr {
   color: 24292e;
 }
 
-.imgTxt {
-  width: 0.7em;
-  height: auto;
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  filter: invert(80%);
-}
-
 .imgSmall {
   width: 18px;
   height: auto;
