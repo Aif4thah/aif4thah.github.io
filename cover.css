@@ -65,6 +65,15 @@ hr {
   margin-block-end: 1em;
 }
 
+.leadRef {
+  text-align: justify;
+  font-size: large;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+
 
 .btn-secondary {
   color: #000; /* Lettres noires */
