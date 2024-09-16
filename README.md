@@ -1,2 +1,1 @@
-Taisen-solutions minimal website
- 
+Taisen-solutions minimalist website

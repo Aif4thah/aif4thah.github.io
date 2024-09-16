@@ -3,7 +3,7 @@
 ## Cartographie
 
 * Machine(s) professionnelle(s) durcies et services ProtonMail
-* Sauvegarde cloud : ProtonDrive (Suisse)
+* Replication cloud : ProtonDrive (Suisse) + GitHub (données publiques/non sensibles)
 * Sauvegarde hors ligne : support physique chiffré (France)
 
 
@@ -28,7 +28,7 @@
 | ER1-2 | Perte PC + accès cloud | Backup hors ligne |
 | ER2-1 | Vol PC | Chiffrement des données + Hardening système |
 | ER2-2 | Vol Backup hors ligne | Chiffrement des données |
-| ER2-2 | Compromission service cloud | Authentification multifacteurs + Chiffrement des données au transit et au repos |
+| ER2-2 | Compromission service cloud ou hébergeur | Authentification multifacteurs + Chiffrement des données transit/repos + Application des bonnes pratiques ANSSI |
 
 
 ### Scénarios hors périmètre de cette analyse
