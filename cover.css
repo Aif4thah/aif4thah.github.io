@@ -53,8 +53,8 @@ hr {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 10%;
-  margin-inline-end: 10%;
+  margin-inline-start: 1%;
+  margin-inline-end: 1%;
 }
 
 .lead {
