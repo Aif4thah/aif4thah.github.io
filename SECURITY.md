@@ -1,4 +1,6 @@
-# Politique de sécurité
+# Politique de sécurité, RGPD et principes de confidentialités
+
+> Sauf cas particulier définit lors de la prestation, il n'existe aucune connexion autre qu'internet entre le SI de Taisen-solutions et le SI client. Lorsque c'est le cas, la PSSI du prestataire s'applique.
 
 ## Cartographie
 
@@ -20,13 +22,12 @@
 
 ### Scénarios de risque et mesures de sécurité
 
-
 | Id | Scénario de risque | Mesures de sécurité prises |
 |--|--|--|
-| ER1-1 | Perte du PC |	Backup hors ligne et réplication cloud |
-| ER1-2 | Perte du PC + backup | Réplication cloud |
-| ER1-2 | Perte PC + accès cloud | Backup hors ligne |
-| ER2-1 | Vol PC | Chiffrement des données + Hardening système |
+| ER1-1 | Perte du Poste de Travail | Backup hors ligne et réplication cloud |
+| ER1-2 | Perte du Poste de Travail + backup | Réplication cloud |
+| ER1-2 | Perte Poste de Travail + accès cloud | Backup hors ligne |
+| ER2-1 | Vol Poste de Travail | Chiffrement des données + Hardening système |
 | ER2-2 | Vol Backup hors ligne | Chiffrement des données |
 | ER2-2 | Compromission service cloud ou hébergeur | Authentification multifacteurs + Chiffrement des données transit/repos + Application des bonnes pratiques ANSSI |
 
@@ -35,7 +36,7 @@
 
 Si ces scénarios doivent être considérés, une autre infrastructure et PSSI seront définies
 
-* Perte simultanée du PC + Backup + cloud
+* Perte simultanée du Poste de Travail + Backup + cloud
 * Guerres et catastrophe naturelles
 * Actions d'agences étatiques, "state sponsored" et assimilées, lorsque les moyens mis en oeuvre sont démesurés
 
