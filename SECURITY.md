@@ -73,7 +73,7 @@ Malgré l’invalidation du Privacy Shield, les clauses contractuelles types ent
 
 ### Traitement des autres données sensibles
 
-* Du fait de leur sensibilité, les rapports de tests d’intrusion sont supprimés après le paiement de la prestation.
+* Du fait de leur sensibilité, les rapports de tests d’intrusion et analyses post-incidents sont supprimés à l'issue de la prestation.
 * Sauf demande de suppression du client, les autres livrables peuvent être conservés pour garantir le suivi des prestations et le service après-vente.
 
 ### Nomadisme
