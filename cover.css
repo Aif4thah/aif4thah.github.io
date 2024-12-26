@@ -1,0 +1,256 @@
+html,
+body {
+  font-family: Manrope, Helvetica Neue ,Arial Nova, Helvetica, Arial, sans-serif;
+  text-align: center !important;
+  line-height: 1.6;
+  height: max-content;
+  background-color: #fff;
+  width: 100%;
+  min-width: min-content;
+
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: 24292e;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: #443c81;
+  text-align: center;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+}
+
+
+a,a:focus,a:hover {
+  color: #000;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 1em 0;
+  padding: 0;
+}
+
+
+.descr {
+  text-align: justify;
+  font-size: large;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 1%;
+  margin-inline-end: 1%;
+}
+
+.lead {
+  text-align: justify;
+  font-size: x-large;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.leadRef {
+  text-align: justify;
+  font-size: large;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+
+
+.btn-secondary {
+  color: #000; /* Lettres noires */
+  background-color: #fff; /* Fond blanc */
+  border: 0.2rem solid #000; /* Bordure noire */
+  border-radius: 10rem;
+  width: 10em;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #fff;
+  text-shadow: none;
+  background-color: #000;
+  border: 0.2rem solid #000;
+  border-radius: 10rem;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #000;
+  --bs-btn-border-color: #000;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #000;
+  --bs-btn-hover-border-color: #000;
+  --bs-btn-focus-shadow-rgb: 130,138,145;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #000;
+  --bs-btn-active-border-color: #000;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #000;
+  --bs-btn-disabled-border-color: #000;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+  color: #443c81;
+
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #000;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #000;
+}
+
+.nav-masthead .nav-link+.nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #000;
+  border-bottom-color: #000;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+    color: #440088;
+  }
+
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+.cover {
+  padding: 0 1.5rem;
+}
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.mastfoot {
+  color: 24292e;
+}
+
+.imgSmall {
+  width: 18px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  filter: invert(30%);
+  
+}
+
+.imgSmall-menu {
+  height: 24px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-top: 7px;
+  float: left;
+  text-align: center;
+  filter: grayscale(100%);
+}
+
+.imgMedium {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.imgRonde {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 100px;
+  margin-bottom: 15px;
+}
+
+.logotsn {
+  width: 40%;
+  height: auto;
+
+}
+
+.divDefault {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 1em;
+}
+
+
+div#vcard {
+  text-align: center;
+  overflow: hidden;
+  font-size: 14pt;
+}
+
+
+/* Flexbox references */
+
+.logos-flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.logos-flex-item {
+  margin-top: 10px;
+  flex: 1 1 100px; /* Permet aux éléments de s'ajuster dans la ligne */
+}
+
+.flex-item-img {
+  height: 2em; /* Augmente la taille des logos */
+  margin: 0.5em;
+  filter: grayscale(100%);
+}
