@@ -190,15 +190,6 @@ hr {
   filter: grayscale(100%);
 }
 
-.imgMedium {
-  width: 250px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
 .imgRonde {
   width: 150px;
   height: auto;
@@ -249,8 +240,17 @@ div#vcard {
   flex: 1 1 100px; /* Permet aux éléments de s'ajuster dans la ligne */
 }
 
-.flex-item-img {
+.flex-item-img-small {
   height: 2em; /* Augmente la taille des logos */
   margin: 0.5em;
   filter: grayscale(100%);
+}
+
+.flex-item-img-big {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
