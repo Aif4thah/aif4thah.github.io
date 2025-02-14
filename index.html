@@ -9,7 +9,7 @@
   default-src 'self';
   img-src data 'self';
   object-src 'none';
-  script-src 'none'; 
+  script-src 'self'; 
   style-src 'self';
   upgrade-insecure-requests;">
 
@@ -71,9 +71,9 @@
       <hr>
       <br><br>
       <p>
-        <a href="#Assistance" class="btn btn-lg btn-secondary">Assistance</a><br><br>
-        <a href="#Audit" class="btn btn-lg btn-secondary">Audit</a><br><br>
-        <a href="#Formation" class="btn btn-lg btn-secondary">Formation</a><br>
+        <a href="#Assistance" onclick="toggleSection('assistance')" class="btn btn-lg btn-secondary">Assistance</a><br><br>
+        <a href="#Audit" onclick="toggleSection('audit')" class="btn btn-lg btn-secondary">Audit</a><br><br>
+        <a href="#Formation" onclick="toggleSection('formation')" class="btn btn-lg btn-secondary">Formation</a><br>
       </p>
       <br>
     </main>
@@ -149,7 +149,7 @@
               alt="CV">Curriculum Vitæ</a></p>
       </div>
 
-      <p class="lead">Je suis à votre écoute pour étudier vos besoins en toute confidentialité et vous apporter une réponse sur-mesure.</p>
+      <p class="lead">“Je suis à votre écoute pour étudier vos besoins en toute confidentialité et y apporter une solution sur-mesure.”</p>
 
       <ul class="logos-flex-container">
         <li class="logos-flex-item">
@@ -167,8 +167,8 @@
 
     <!-- Assistance
     ================================================== -->
+    <div id="assistance" class="section">
     <div class="divDefault">
-
 
       <a name="Assistance"></a>
       <h2>Assistance</h2>
@@ -208,14 +208,15 @@
 
 
     </div>
-    <hr>
+  </div>
+
 
 
 
     <!-- Audit
     ================================================== -->
+    <div id="audit" class="section">
     <div class="divDefault">
-
 
       <a name="Audit"></a>
       <h2>Audit</h2>
@@ -257,13 +258,15 @@
 
 
     </div>
-    <hr>
+  </div>
+
 
 
 
 
     <!-- Formation
     ================================================== -->
+    <div id="formation" class="section">
     <div class="divDefault">
       <a name="Formation"></a>
       <h2>Formation</h2>
@@ -295,7 +298,7 @@
         Prendre RDV</a><br>
 
     </div>
-    <hr>
+  </div>
 
 
     <!-- Mentions
@@ -312,6 +315,11 @@
       </div>
     </footer>
   </div>
+
+
+  <!--dynamic code-->
+  <script src="./minimal.js"></script>
+
 </body>
 
 </html>
