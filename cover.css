@@ -52,17 +52,23 @@ hr {
 
 
 .descr {
-  text-align: justify;
+  text-align: left;
   font-size: large;
   display: block;
+  line-height: 1.6; 
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0%;
   margin-inline-end: 0%;
 }
 
+.descr li {
+  margin-bottom: 0.5em;
+}
+
+
 .lead {
-  text-align: justify;
+  text-align: left;
   font-size: x-large;
   display: block;
   margin-block-start: 1em;
@@ -70,7 +76,7 @@ hr {
 }
 
 .leadRef {
-  text-align: justify;
+  text-align: left;
   font-size: large;
   display: block;
   margin-block-start: 1em;
