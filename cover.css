@@ -55,10 +55,10 @@ hr {
   text-align: justify;
   font-size: large;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 1%;
-  margin-inline-end: 1%;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0%;
+  margin-inline-end: 0%;
 }
 
 .lead {
