@@ -1,4 +1,7 @@
-html,
+html { 
+  scroll-behavior: smooth; 
+}
+
 body {
   font-family: Manrope, Helvetica Neue ,Arial Nova, Helvetica, Arial, sans-serif;
   text-align: center !important;
